@@ -1,0 +1,29 @@
+type User {
+  id: Int!
+  name: String!
+  books: [Book!]
+}
+
+type Book {
+  id: Int!
+  title: String!
+  owner: User!
+}
+
+type Query {
+  allUsers(pagination: PaginationInput): [User!]!
+  allBooks(pagination: PaginationInput): [Book!]!
+  booksByOwner(ownerId: Int!): [Book!]
+  book(bookId: Int!): Book
+  totalCount: Int!
+}
+
+type Mutation {
+  updateBookOwner(bookId: Int!, newOwnerId: Int!): Book
+  deleteBook(bookId: Int!): Boolean
+}
+
+input PaginationInput {
+  page: Int
+  perPage: Int
+}
