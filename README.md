@@ -1,7 +1,7 @@
 
 # OLYX Library
 
-Olyx Library Graphql API is an assignment for backend developer role within the company.
+Olyx Library Graphql API.
 
 
 
@@ -47,10 +47,6 @@ Head into the directory of the project using your terminal/cmd depending on your
     Windows :  npx ts-node .\prisma\seed-reset.ts
     Linux/OSX: npx ts-node ./prisma/seed-reset.ts
 ```
-
-## API testing with Insomnia
-In order to test the API with Insomnia you need to import Insomnia_Olyx_Library.json to your Insomnia environment.
-#### On your home Insomnia screen you click on Create - Import - You choose the .json file
 
 ##### Finally Enjoy and happy testing!
 ## Authors
