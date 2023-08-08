@@ -18,10 +18,11 @@ Unzip the Library.zip file
 Head into the directory of the project using your terminal/cmd depending on your operating system.
 
 #### Step1: Install dependencies
+```
     npm install
     # or
     yarn install
-
+```
 #### Step2: Edit the .env file in the project root and provide your MySQL database credentials
 
 #### Step3: Run database migrations to create the necessary tables:
