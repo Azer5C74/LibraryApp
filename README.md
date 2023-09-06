@@ -1,7 +1,7 @@
 
-# OLYX Library
+# Books Library
 
-Olyx Library Graphql API.
+Books Library Graphql API.
 
 
 
